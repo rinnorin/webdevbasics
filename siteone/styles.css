@@ -84,6 +84,10 @@ a {
     
 }
 
+#collapse {
+    display:flexbox;
+    justify-content: end;
+}
 
 
 
