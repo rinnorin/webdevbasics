@@ -1,0 +1,90 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/**header**/
+#header-nav {
+    background-color: #f6b319;
+    border: 0;
+    border-radius: 0;
+}
+
+#logo-img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    float: left;
+}
+
+#brand {
+    float: left;
+}
+
+#cert {
+    height: 100px;
+    width: 100px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 900;
+    padding-top: 25px;
+    
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgb(84, 78, 78);
+    text-decoration: none;
+    color: #717135;
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+#brand {
+    columns: #000;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    margin-top: 15px;
+}
+
+#cert {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+.collapsable-nav span, div, a, a:hover, a:active, a::after, a:default, a:focus{
+    color: #61122f;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1em;
+    
+}
+
+#nav-list li {
+    padding: 20px;
+    
+}
+
+#nav-list {
+    margin-left: 15px;
+}
+
+
+
+
