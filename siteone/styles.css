@@ -12,21 +12,15 @@ body {
     border-radius: 0;
 }
 
-#logo-img {
-    width: 150px;
-    height: 150px;
+.logo-img {
     margin: 10px 15px 10px 0;
     float: left;
 }
 
 #brand {
-    float: left;
+    padding-right: 200px;
 }
 
-#cert {
-    height: 100px;
-    width: 100px;
-}
 
 .navbar-brand {
     margin-left: 20px;
@@ -84,11 +78,146 @@ a {
     
 }
 
+#nav-list div {
+    color: #797936;
+}
+
 #collapse {
     display:flexbox;
     justify-content: end;
 }
 
+#phone-number span {
+    color: #61122f;
+}
+#phone-number > div {
+    color: #717135;
+}
+
+#phone-number {
+    padding: 20px 0 20px 0;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #f6b319;
+    border: 1px white solid;
+}
+
+#main-content {
+    margin-top: 20px;
+}
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+}
+
+.jumbotron > img {
+    box-shadow: 0 0 50px #3f0c1f;
+}
+.jumbotron > img:nth-child(3) {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    #nav-list > li:nth-child(4) {
+        padding-right: 0px;
+    }
+}
+
+#main-content span {
+    color: #fff;
+}
+
+.tile {
+    position: relative;
+}
+
+.tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.8;
+
+}
+
+
+#menu-tile, #map-tile, #specials-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    position: relative;
+}
+
+#menu-tile:hover, #map-tile:hover, #specials-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+.home-tiles {
+    margin-top: 30px;
+}
+
+#menu-tile {
+    background: url('/images/menu-tile.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#specials-tile {
+    background: url('/images/specials-tile.jpg') no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #2f2e2e;
+}
+
+footer div {
+    color: #cccccc;
+}
+
+.ftrcol {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#end {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.footer-row {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    text-align: center;
+}
+
+#details-delivery {
+    color: #628e26;
+}
+
+#phone-under {
+    color:#6d9d29;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
 
 
 

@@ -25,7 +25,10 @@
                 <div class="navbar-header">
 
                     <a href="/index.html" class="d-none d-lg-block d-md-block">
-                        <img src="/images/logo.png" id="logo-img" alt="Logo image"></img>
+                        <img src="/images/restaurant-logo.png" class="logo-img d-none d-xl-block" alt="Logo image"></img>
+                        <img src="/images/restaurant-logo_large.png" class="logo-img d-none d-lg-block d-xl-none" alt="Logo image"></img>
+                        <img src="/images/restaurant-logo_medium.png" class="logo-img d-none d-md-block d-lg-none" alt="Logo image"></img>
+                        <img src="/images/restaurant-logo_small.png" class="logo-img d-block d-md-none" alt="Logo image"></img>
                     </a>
 
                     <div class="navbar-brand">
@@ -33,7 +36,7 @@
                             <h1>David Chu's China Bistro</h1>
                         </a>
                         <p id="brand">
-                            <img id="cert" src="images/Kosher_certification_logo.png" alt="">
+                            <img id="cert" src="images/star-k-logo.png" alt="">
                             <span>Kosher Certified</span> 
                         </p>
                     </div>
@@ -62,9 +65,11 @@
                         <a href="#">
                             <span class="glyphicon glyphicon-certificate"></span><br class="d-none d-sm-block"> Awards</a>
                         </li>
-                        <li id="phone" class="d-none d-sm-block nav-item active">
-                        <a href="tel:410-602-5008">
-                            <span>410-602-5008</span></a><div>* We Deliver</div>
+                        <li id="phone" class="d-none d-md-block nav-item active">
+                            <a href="tel:410-602-5008">
+                                <span>410-602-5008</span>
+                            </a>
+                            <div>* We Deliver</div>
                         </li>
                     </ul>
                 </div>
@@ -73,6 +78,69 @@
             </div>
         </nav>
     </header>
+
+    <div id="phone-number" class="rounded d-blok d-md-none">
+        <a href="tel:410-602-5008"><span class="glyphicon glyphicon-earphone"></span> <span> 410-602-5008</span></a><div>* We Deliver</div>
+    </div>
+    
+
+    <div id="main-content" class="container">
+        <div class="jumbotron rounded">
+            <img src="images/jumbotron_768.jpg" alt="Restaurant picture" class="img-responsive rounded d-block d-md-none">
+            <img src="images/jumbotron_992.jpg" alt="Restaurant picture" class="img-responsive rounded d-none d-md-block d-xl-none">
+            <img src="images/jumbotron_1200.jpg" alt="Restaurant picture" class="img-responsive rounded d-none d-xl-block">
+            
+        </div>
+
+        <div class="row home-tiles">
+            <div class="tile col-md-4 col-sm-6 col-xs-12">
+                <a href="menu-categories.html">
+                    <div id="menu-tile"><span>menu</span></div>
+                </a>
+            </div>
+            <div class="tile col-md-4 col-sm-6 col-xs-12">
+                <a href="single-category.html">
+                    <div id="specials-tile"><span>specials</span></div>      
+                </a>
+            </div>
+            <div class="tile col-md-4 col-sm-12 col-xs-12">
+                <a href="https://www.google.com/maps/place/David+Chu's+China+Bistro/@39.3635874,-76.7138622,17z/data=!4m14!1m7!3m6!1s0x89c81a14e7817803:0xab20a0e99daa17ea!2sDavid+Chu's+China+Bistro!8m2!3d39.3635903!4d-76.7116881!16s%2Fg%2F1tt8d6_y!3m5!1s0x89c81a14e7817803:0xab20a0e99daa17ea!8m2!3d39.3635903!4d-76.7116881!16s%2Fg%2F1tt8d6_y?entry=ttu" target="_blank">
+                    <div id="map-tile">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3084.675373580114!2d-76.7138622!3d39.3635874!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid%20Chu&#39;s%20China%20Bistro!5e0!3m2!1sru!2skz!4v1686032879648!5m2!1sru!2skz" width="100%" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <span>map</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row footer-row">
+                <div class="ftrcol col-md-4 col-sm-4 col-xs-12">
+                    <div>Hours:</div>
+                    <div>Sun - Thurs: 11:15am - 10:00pm</div>
+                    <div>Fri: 11:15am - 2:30pm</div>
+                    <div>Saturday Closed</div>
+                </div>
+                <div class="ftrcol col-md-4 col-sm-4 col-xs-12">
+                    <div>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</div>
+                    <br>
+                    <div>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</div>
+                </div>
+                <div class="ftrcol col-md-4 col-sm-4 col-xs-12">
+                    <div>Address:</div>
+                    <div>7105 Reisterstown Road</div>
+                    <div>Baltimore, MD 21215</div>
+                    <div id="details-delivery">* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="end">© Copyright David Chu's China Bistro 2016 | Batyrbek</div>
+
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
